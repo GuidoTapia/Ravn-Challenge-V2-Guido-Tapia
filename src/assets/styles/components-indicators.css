@@ -1,0 +1,14 @@
+
+.loading-indicator{
+    align-content: center;
+    float: center;
+}
+
+.indicator-text{
+    padding-left: 8pt;
+    display: inline;
+    font-size: 17pt;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    float: left;
+}

@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/loading-logo.svg';
+import './assets/styles/App.css';
+import './assets/styles/global-styles.css';
+import React,{useState} from 'react';
+
+//We import our component
+import PageHeader from './components/headers/PageHeader';
+import DataList from './components/lists/DataList';
+import PeopleList from './components/lists/PeopleList';
+
+
 
 function App() {
+  const [personId,setId] =useState('personId')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <PageHeader/>
+      <PeopleList setId={setId} />
+      <DataList personId= {personId} />
     </div>
+    
   );
 }
 
