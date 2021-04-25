@@ -13,12 +13,12 @@ This proposal was carried out using the following technologies:
 If this es your first time working with React, first you have to install node.js, you can download from the website https://nodejs.org/es/
 
 If you already have it installed, the next step is update npm, you can do it with the command
-#### `npm install -g npm@latest`
+##### `npm install -g npm@latest`
 and to make sure we don't have any problems in the future, we clear the cache
-### `npm cache clean --force`
+##### `npm cache clean --force`
 
 and finally we install create-react-App
-### `install -g create-react-app`
+`install -g create-react-app`
 
 ## Working Application.
 
