@@ -96,4 +96,56 @@ Finally for run the project you can do it locally with:
     ├── App.test.js
     ├── index.js
     ├── reportWebVitals.js
-	  └── PeopleList.js```
+    └── setupTest.js
+ ```   
+####  About the FrontEnd Design
+
+Since some elements did not have exact measurements, an approximation was obtained using the scales of the page used for the designs.
+
+The icons were redrawn using Adobe Illustrator.
+
+Everything related to styles was grouped in order to avoid the coupling of components and design files, also we tried to reduce the redundancy that these could have.
+
+####  About the Apollo Client
+
+The configuration of this is in the index.js file and the queries were stored in their own files to avoid unnecessary overloading of the components.
+
+Although the design did not specify it and, on the contrary, it could be implied that there was only one query, the query was modularized to avoid coupling.
+
+Two queries are presented:
+```
+
+query people($after: String, $limit: Int){
+	allPeople(after: $after,first:$limit){
+		people{
+			id
+			name
+			species{
+				name
+			}
+			homeworld{
+				name
+			}
+		}
+		pageInfo{
+			endCursor
+			hasNextPage
+		}
+	}
+}
+
+query PersonQuery($id: ID!) {
+	person(id: $id) {
+		name
+		eyeColor
+		hairColor
+		skinColor
+		birthYear
+		vehicleConnection {
+			vehicles {
+				name
+			}
+		}
+	}
+}
+```
