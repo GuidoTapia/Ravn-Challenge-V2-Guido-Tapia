@@ -4,8 +4,9 @@ This is the solution proposed by Guido Tapia for the RAVN challenge.
 The challenge consisted in the development of a web or mobile application for connection to a graphql database.
 This proposal was carried out using the following technologies: 
 
-- reactJS 
-- Apollo-Client.
+- reactJS https://es.reactjs.org/
+- Apollo-Client https://www.apollographql.com/docs/react/
+- GraphQL https://graphql.org/
 
 ## Getting Started
 
@@ -149,3 +150,7 @@ query PersonQuery($id: ID!) {
 	}
 }
 ```
+
+####About the technology choice
+
+Although Django was initially proposed, this idea was quickly discarded, due to the requirement of using the apollo client.
