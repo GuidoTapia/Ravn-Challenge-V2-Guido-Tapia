@@ -1,0 +1,45 @@
+@import "global-styles.css";
+
+.notice-cell{
+    width: 345pt;
+    text-align: center;
+    padding-left: 16pt;
+    padding-top: 16pt;
+    padding-right: 16pt;
+    padding-bottom: 16pt;
+}
+
+.loading-cell{
+    width: 345pt;
+    align-content: center;
+    padding-left: 130pt;
+    padding-top: 16pt;
+    padding-right: 130pt;
+    padding-bottom: 16pt;
+    margin: auto;
+}
+
+.person-subcell{
+    width: 310pt;
+    text-align: left;
+    padding-top: 16pt;
+    padding-right: 16pt;
+    padding-bottom: 16pt;
+    float:left;
+}
+.person-cell{
+    width: 360pt;
+    margin-left: 16pt;
+    display: flex;
+    border-bottom: 1pt solid rgba(0, 0, 0, 0.2);
+}
+
+.data-cell{
+    width: 500pt;
+    height: 16pt;
+    padding-left: 16pt;
+    padding-top: 16pt;
+    padding-right: 16pt;
+    padding-bottom: 16pt;
+    border-bottom: 1pt solid rgba(0, 0, 0, 0.2);
+}
