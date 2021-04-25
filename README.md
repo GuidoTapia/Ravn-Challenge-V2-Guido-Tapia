@@ -1,17 +1,24 @@
 # RAVN Challenge by Guido Tpia
 
+This is the solution proposed by Guido Tapia for the RAVN challenge.
+The challenge consisted in the development of a web or mobile application for connection to a graphql database.
+This proposal was carried out using the following technologies: 
 
+- reactJS 
+- Apollo-Client.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+1. Installing REACT
+If this es your first time working with React, first you have to install node.js, you can download from the website https://nodejs.org/es/
 
-In the project directory, you can run:
+If you already have it installed, the next step is update npm, you can do it with the command
+### `npm install -g npm@latest`
+and to make sure we don't have any problems in the future, we clear the cache
+### `npm cache clean --force`
 
-### `npm start`
-
-
-
+and finally we install create-react-App
+### `install -g create-react-app`
 
 ## Working Application.
 
@@ -27,7 +34,7 @@ In the project directory, you can run:
 ![](RAVN-fail-2.gif)
 
 
-3. Even though the design did not specify it, it was assumed that if the data could not be displayed per character, a warning message should also be displayed.
+3. Even though the design did not specify it, it was assumed that if the data of each character could not be displayed, a warning message should also be displayed.
 
 
 ![](RAVN-fail-1.gif)
