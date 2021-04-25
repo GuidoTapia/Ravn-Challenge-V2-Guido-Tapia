@@ -151,6 +151,6 @@ query PersonQuery($id: ID!) {
 }
 ```
 
-####About the technology choice
+####  About the technology choice
 
 Although Django was initially proposed, this idea was quickly discarded, due to the requirement of using the apollo client.
