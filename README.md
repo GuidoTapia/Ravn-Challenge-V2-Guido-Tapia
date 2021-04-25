@@ -27,17 +27,17 @@ For a correct setup of the project, you must first create a new React project on
 
 and being in your project directory you must add apollo-client
 `npm @apollo/client`
-and graphql dependencies:
+and graphql dependencies
 `npm i graphql`
 
 after this, you only need to download this repository and replace the duplicated files and folders.
 
 #### 3. Running project
 
-Finally for run the project you can do it locally:
+Finally for run the project you can do it locally with:
 `npm start`
 
-## Working Application.
+## Working Application
 
 1. The application shows a correct performance according to the requirements expressed in the functionality statement.
 
@@ -55,3 +55,45 @@ Finally for run the project you can do it locally:
 
 
 ![](RAVN-fail-1.gif)
+
+
+## About development and additional criteria
+
+####  File structure and distribution
+
+`RAVN-Challenge-V2
+├── node_modules (not included in repository)
+├── public (icons,logos and others)
+└── src
+    └── api-apollo
+    │   ├── AllPeopleQuery.js
+    │   ├── PersonQuery.js
+    ├── assets
+    │   ├── images
+    │   └── styles
+    |        ├── App.css
+    |        ├── components-cells.css
+    |        ├── components-headers.css
+    |        ├── components-indicators.css
+    |        ├── components-lists.css
+    |        ├── global-styles.css
+    │        └── index.css
+    ├── components
+    │   ├── cells
+    │   │   ├── DataCell.js
+    │   │   ├── LoadingCell.js
+    │   │   ├── NoticeCell.js
+    │   │   └── PersonCell.js       
+    │   ├── headers
+    │   │   ├── PageHeader.js
+    │   │   └── SectionHeader.js
+    │   ├── indicators
+    │   │   └── LoadingIndicators.js
+    │   └── lists
+    │       ├── DataList.js
+    │       └── PeopleList.js
+    ├── App.jss
+    ├── App.test.js
+    ├── index.js
+    ├── reportWebVitals.js
+	  └── PeopleList.js`
