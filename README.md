@@ -61,7 +61,7 @@ Finally for run the project you can do it locally with:
 
 ####  File structure and distribution
 
-`RAVN-Challenge-V2
+```RAVN-Challenge-V2
 ├── node_modules (not included in repository)
 ├── public (icons,logos and others)
 └── src
@@ -96,4 +96,4 @@ Finally for run the project you can do it locally with:
     ├── App.test.js
     ├── index.js
     ├── reportWebVitals.js
-	  └── PeopleList.js`
+	  └── PeopleList.js```
